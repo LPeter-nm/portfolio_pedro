@@ -17,12 +17,12 @@ export default function Contact() {
 
   const [status, setStatus] = useState('');
 
-  const handleChange = (e: any) => {
+  const handleChange = (e: { target: { name: any; value: any; }; }) => {
     const { name, value } = e.target;
     setFormData((prevData) => ({ ...prevData, [name]: value }));
   };
 
-  const handleSubmit = async (e: any) => {
+  const handleSubmit = async (e: { preventDefault: () => void; }) => {
     e.preventDefault();
     setStatus('Enviando...');
 
