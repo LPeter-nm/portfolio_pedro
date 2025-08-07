@@ -24,8 +24,8 @@ export default function Hero() {
               </Button>
             </a>
             <a
-              href="/Curriculo_Profissional.pdf" 
-              download="Curriculo_Profissional.pdf" 
+              href="/meu_Curriculo.pdf" 
+              download="curriculoPedroGabriel.pdf" 
               target="_blank"
               rel="noopener noreferrer"
             >
