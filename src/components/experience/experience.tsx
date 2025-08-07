@@ -11,6 +11,14 @@ export default function Experience() {
         "Comunidade de desenvolvedores não remunerada que realiza o desenvolvimento de projetos reais com ferramentas mais modernas do mercado",
       technologies: ["React", "Next.js", "Node.js", "Nest.js", "TypeScript"],
     },
+    {
+      title: "Suporte Técnico",
+      company: "Prefeitura Municipal de Timon",
+      period: "2025 - Presente",
+      description:
+        "Atuo na linha de frente da inovação na Agência de Tecnologia, Ciência e Inovação (ATI Timon), onde integro a equipe de desenvolvimento do Sistema Eletrônico de Informações (SEI). Meu foco é contribuir para a transformação digital da administração pública, desenvolvendo soluções que garantem mais agilidade, transparência e eficiência aos processos municipais.",
+      technologies: ["WordPress", "No-Code"],
+    },
   ]
 
   return (

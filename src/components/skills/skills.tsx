@@ -13,7 +13,7 @@ export default function Skills() {
     },
     {
       title: "Ferramentas",
-      skills: ["Git", "Docker", "Google Cloud", "Vercel", "Figma", "VS Code", "Postman", "Cloudinary", "Insomnia", "Bruno", "Nodemailer"],
+      skills: ["Git", "Docker", "Google Cloud", "Vercel", "Figma", "VS Code", "Postman", "Cloudinary", "Insomnia", "Bruno", "Nodemailer", "WordPress"],
     },
   ]
 
