@@ -45,6 +45,7 @@ const projects = [
     name: "Sistema de receitas",
     description: "Sistema para cadastro e visualização de receitas próprias",
     technologies: ["Nest.js", "Typescript", "Docker", "Next.js", "TailwindCSS"],
+    images: ['/login_Recipe.jpeg', '/home_Recipe.jpeg', 'detail_Recipe.jpeg', '/create_Recipe.jpeg', '/Any_Recipe.mp4'],
     linkBack: "https://github.com/LPeter-nm/api_entrega_trabalhos", 
     linkFront: ""
   },
