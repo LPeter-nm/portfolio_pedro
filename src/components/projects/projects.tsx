@@ -17,13 +17,6 @@ const projects = [
     linkFront: "https://github.com/LPeter-nm/front-end-ifreserve"
   },
   {
-    name: "Todo List",
-    description: "Sistema de cadastro de tarefas em que desenvolvi habilidades de sub gerente de projeto back-end para auxiliar novos integrantes na Developers Community",
-    technologies: ["Express.js", "PostgreSQL"],
-    linkBack: "https://github.com/DeveloperCommunitty/to-do-list_back-end", 
-    linkFront: "https://github.com/DeveloperCommunitty/to-do-list_font-end"
-  },
-  {
     name: "E-commerce de produtos",
     description: "Sistema de uma e-Commerce que oferece recursos para criar, gerenciar e integrar plataformas de comércio eletrônico. Ela permite operações de produtos, pedidos, clientes e carrinhos de compras, com autenticação baseada em tokens para segurança.",
     technologies: ["Json Web Token", "Cloudinary", "Axios", "React"],
