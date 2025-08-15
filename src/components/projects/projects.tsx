@@ -33,6 +33,7 @@ const projects = [
     name: "Lista de receitas",
     description: "Aplicação mobile desenvolvida para listar receitas armazenadas na API DummyJson",
     technologies: ["React Native", "DummyJson API", "Expo Router"],
+    images: ['/pageInitial_Recipe_DummyJson.png', '/home_Recipe_DummyJson.png', '/details_Recipe_DummyJson.png',  '/about_Recipe_DummyJson.png'],
     linkFront: "https://github.com/LPeter-nm/recipe_mobile"
   },
   {
@@ -97,7 +98,7 @@ export default function Projects() {
                               <img 
                                 src={media} 
                                 alt={`${project.name} screenshot ${idx + 1}`}
-                                className="w-full h-auto object-cover rounded-lg cursor-pointer hover:opacity-90 transition-opacity"
+                                className="w-full h-[150px] object-cover rounded-lg cursor-pointer hover:opacity-90 transition-opacity"
                                 onClick={() => handleMediaClick(media)}
                               />
                             )}
@@ -150,7 +151,7 @@ export default function Projects() {
       </div>
 
       <Dialog open={!!expandedImage} onOpenChange={(open) => !open && setExpandedImage(null)}>
-        <DialogContent className="min-w-[80%] min-h-[80%] w-auto h-auto max-w-none max-h-none p-0 bg-transparent border-none">
+        <DialogContent className="min-w-[70%] min-h-[70%] w-auto h-auto max-w-none max-h-none p-0 bg-transparent border-none">
           <VisuallyHidden>
             <DialogTitle>Mídia expandida</DialogTitle>
           </VisuallyHidden>
