@@ -28,7 +28,7 @@ export default function About() {
               <div className="grid grid-cols-2 gap-4">
                 <Card>
                   <CardContent className="p-4 text-center">
-                    <div className="text-3xl font-bold text-red-600">10+</div>
+                    <div className="text-3xl font-bold text-red-600">20+</div>
                     <div className="text-gray-600">Projetos</div>
                   </CardContent>
                 </Card>

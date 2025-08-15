@@ -69,7 +69,7 @@ export default function Projects() {
       <h2 className="text-3xl font-bold mb-4">Projetos</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {projects.map((project, index) => (
-          <Card key={index}>
+          <Card key={index} className="justify-between hover:shadow-lg transition-shadow">
             <CardHeader>
               <CardTitle>{project.name}</CardTitle>
               <CardDescription>{project.description}</CardDescription>
@@ -176,6 +176,11 @@ export default function Projects() {
           )}
         </DialogContent>
       </Dialog>
+      <div>
+        <a href="https://github.com/LPeter-nm?tab=repositories" target="_blank" className="flex items-center justify-center mt-8 text-black hover:underline">
+            Veja mais no meu GitHub
+        </a>
+      </div>
     </section>
   )
 }
